@@ -1,0 +1,6 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+models/best_model/se4hate/config.json filter=lfs diff=lfs merge=lfs -text
+models/best_model/se4hate/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/last_epoch_model/se4hate-epoch-50/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/last_epoch_model/se4hate-epoch-50/config.json filter=lfs diff=lfs merge=lfs -text
+results/results.json filter=lfs diff=lfs merge=lfs -text
