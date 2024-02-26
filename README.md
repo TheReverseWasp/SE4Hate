@@ -1,6 +1,6 @@
 # SE4Hate - Small Electra for Hate
 
-We present SE4Hate, an Electra Small-based approach for hate classification. We trained our model on the[Dynamically generated hate speech dataset](https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset). We used the overall data with a 70/30 train-test ratio for training and testing. We achieved a score of 78.8785% F1 with our lightweight approach.
+We present SE4Hate, an Electra Small-based approach for hate classification. We trained our model on the [Dynamically generated hate speech dataset](https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset). We used the overall data with a 70/30 train-test ratio for training and testing. We achieved a score of 78.8785% F1 with our lightweight approach.
 
 ## Training results
 
