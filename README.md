@@ -1,4 +1,4 @@
-# SE4Hate - Small Electra for Hate
+# SE4Hate - Small Electra for Hate: A Transformer Lightweight Approach to Hate Text Classification
 
 We present SE4Hate, an Electra Small-based approach for hate classification. We trained our model on the [Dynamically generated hate speech dataset](https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset). We used the overall data with a 70/30 train-test ratio for training and testing. We achieved a score of 78.8785% F1 with our lightweight approach.
 
@@ -16,14 +16,19 @@ Finally, all images and resources are attached in this GitHub repository; the fi
 
 ## Architecture
 
-We used a Google Colab Pro Session with a T4 as Graphics Card. The './notebooks/SE4Hate.ipynb' compiles in around 16 hours because of the evaluation, so it is preferred to test other models by changing the names of the saving in case you want to replicate or improve the achieved results.
+We used a Google Colab Pro Session with a T4 as a Graphics Card. The './notebooks/SE4Hate.ipynb' compiles in around 16 hours because of the evaluation, so it is preferred to test other models by changing the names of the saving in case you want to replicate or improve the achieved results.
 
 ## Cite
 
-You can cite our work here::
+You can cite our work here:
 
 ```plaintext
-Coming Soon...
-
-
+@inproceedings{lazo2024small,
+  title={Small Electra for Hate: A Transformer Lightweight Approach to Hate Text Classification},
+  author={Lazo Vasquez, Ricardo and Ochoa-Luna, Jos{\'e}},
+  booktitle={Annual International Conference on Information Management and Big Data},
+  pages={246--256},
+  year={2024},
+  organization={Springer}
+}
 ```
